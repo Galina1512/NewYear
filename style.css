@@ -1,0 +1,163 @@
+body{
+    background-image: url(e-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(124, 230, 238);
+    margin: 0;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    /* z-index: -1; */
+  }
+.heading{
+    display: flex;
+    justify-content: center;
+    z-index: -10;
+
+}
+
+h1{
+    font-size: 60px;
+    background-color: rgba(251, 248, 249, .7);
+    padding: 20px;
+    border: 3px solid #253bc5;
+    border-radius: 10px;
+    font-family: 'Staatliches', cursive;
+    color: #253bc5;
+    text-shadow: 0px 0px 20px #faec2a;
+    font-weight: 900;
+
+}
+.newH{
+    font-size: 40px;
+    background-color: rgba(251, 248, 249, 0);
+    padding-top: 1px;
+    margin-top: -50px;
+    border: none;
+    color: white;
+    text-shadow: 5px 5px 8px #253bc5;
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: auto;
+}
+.crismas{
+    background-color: rgba(251, 248, 249, .9);
+    width: 15%;
+    height: 100%;
+    border: 3px solid #253bc5;
+    border-radius: 20px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    box-shadow: 0px 0px 20px #faec2a;
+}
+h3{
+    font-size: 24px;
+    margin-top: 10px;
+    color: #1f31a7;
+
+    font-family: 'Montserrat', sans-serif;
+}
+.days, .hours, .minutes, .seconds {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1f31a7;
+
+}
+.bred{
+    font-size: 60px;
+    color: red;
+    border: none;
+    font-family: 'Staatliches', cursive;
+}
+button{
+    margin-left: 100px;
+    border: none;
+    border-radius: 50%;
+    z-index:100;
+}
+button:hover{
+    cursor: pointer;
+}
+#mybtn{
+    z-index: 5;
+}
+.btn-music{
+    z-index: 3;
+}
+
+@media all and (max-width: 800px){
+
+.newH{
+    font-size: 40px;
+    margin-top: -10px;
+}
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+}
+
+    
+@media all and (max-width: 500px){
+    h1{
+        font-size:40px;
+        text-align:center;
+    }
+    .heading{
+        width:80vw;
+        margin:auto;
+    }
+    .newH{
+        font-size: 30px;
+        margin-top: -10px;
+        margin-bottom: 0;
+    }
+
+    .crismas{ 
+        width: 120px;
+        height: 150px;
+        border: 3px solid black;
+        border-radius:20px;
+        margin-top: 50px;
+    }
+
+    h3{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    img{
+        width: 70px;
+        height: 70px;
+    }
+    .crismas{
+        margin-top: 20px;
+    }
+    .days, .hours, .minutes, .seconds {
+        font-size: 25px;
+
+    }
+    button{
+        margin-left:5%;
+    }
+}
