@@ -1,5 +1,5 @@
 function crismas() {
-    const newYear = new Date("December 31, 2024 23:59");
+    const newYear = new Date("December 31, 2025 23:59");
     const now = new Date();
 
     const diff = newYear - now;
